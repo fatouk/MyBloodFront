@@ -1,0 +1,43 @@
+<ion-header >
+  <ion-toolbar >
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons> 
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content  padding>
+ <div class="main-header">
+  <div class="img">
+    <img style="width: 70%; margin-left: 15%; margin-top: 10%;" src="../../../assets/My_blodd.png" alt="">
+  </div>
+</div>
+  <form #form="ngForm" (ngSubmit)="onLogin(form)">
+    <ion-grid>
+      <ion-row color="primary" justify-content-center>
+        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+         
+          <div padding style="margin-top: 10%;">
+            <ion-item >
+              <ion-input  name="telephone" type="phone" placeholder="Telephone" ngModel required></ion-input>
+            </ion-item>
+            <ion-item style="margin-top: 2%;">
+              <ion-input name="password" type="password"  placeholder="Password " ngModel required ></ion-input>
+            </ion-item>
+          </div>
+          <div  padding style="margin-left: 6%;">
+            <ion-button  fill="clear" size="medium" expand="block" type="submit"  >Se Connecter</ion-button>
+          </div>
+        </ion-col>
+        <ion-row style="color: black; margin-left: 20%;">
+          <p >Pas de compte? <a routerLink="/register">Creer ici</a></p>
+        </ion-row>
+      </ion-row>
+    </ion-grid>
+    
+  </form>
+  <ion-row style="color: black; margin-left: 30%; margin-top: 30%;">
+    <p >Sauver des vies </p>
+  </ion-row>
+  
+</ion-content>

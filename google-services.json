@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973998691277",
+    "project_id": "banqueblodd",
+    "storage_bucket": "banqueblodd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973998691277:android:396c22e7b4f233dd11aa84",
+        "android_client_info": {
+          "package_name": "com.BanqueBlood.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973998691277-s1c8s1bcl4aojlrsfpmkolihljploplf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQZdM7ctqVOkScnlEu-_hSi1vwHhuPDjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973998691277-s1c8s1bcl4aojlrsfpmkolihljploplf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

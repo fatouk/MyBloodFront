@@ -1,0 +1,34 @@
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons color="white" slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title align="center">
+  Confirmation
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+
+
+<ion-card class="new" *ngFor="let alert of alerts |orderBy: 'date' ">
+
+    <ion-item-group  (click)="detail(alert.id)"  >
+    <ion-card-header >
+      <ion-item  lines="none">
+
+        <ion-label>Confirmer par: <strong> {{alert?.accepter?.demande?.utilisateur?.nomComplet}} </strong></ion-label>
+      </ion-item>
+    </ion-card-header>
+    <ion-card-content class="ion-margin-top">
+      <p>Groupe sanguin : <strong>{{alert?.accepter?.demande?.groupeSanguin?.type}}</strong></p>
+      <ion-text><span></span>Plus de detail</ion-text>
+      <ion-icon name="caret-down-outline"></ion-icon>
+    </ion-card-content>
+  </ion-item-group>
+
+</ion-card>
+
+</ion-content>

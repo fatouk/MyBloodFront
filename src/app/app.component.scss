@@ -1,0 +1,29 @@
+
+ion-content{
+    --background: rgb(246, 210, 210); 
+}
+ion-list{
+background: rgb(246, 210, 210); 
+}
+ion-item{
+    --background:rgb(246, 210, 210); 
+    color: black;
+}
+ion-item:hover{
+    --background: brown;
+}
+
+
+
+.main-header{
+   
+        height: 30vh;
+        width: 120%;
+        background: brown;
+        box-shadow: 0 1px 10px var(--ion-color-danger-brown);
+        border-radius: 0 0 50% 50%;
+        margin-left: -4.5vh;
+        margin-top: -5px;
+        margin-bottom: 5px;
+      
+}

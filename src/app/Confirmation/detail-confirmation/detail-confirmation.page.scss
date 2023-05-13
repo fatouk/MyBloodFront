@@ -1,0 +1,37 @@
+ion-card{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 0;
+    cursor: pointer;
+   
+    border: 4px solid rgb(253, 215, 215);
+    --background: rgb(255, 255, 255);
+    box-shadow: 0px 10px 5px -4px rgba(177, 11, 11, 0.75);
+  -webkit-box-shadow: 0px 10px 5px -4px rgba(168, 18, 18, 0.75);
+  -moz-box-shadow: 0px 10px 5px -4px rgba(148, 17, 17, 0.75);
+  }
+  
+  ion-item{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 0;
+    color: black;
+   
+    border: 4px solid rgb(253, 215, 215);
+    --background: white;
+    box-shadow: 0px 10px 5px -4px rgba(177, 11, 11, 0.75);
+  -webkit-box-shadow: 0px 10px 5px -4px rgba(168, 18, 18, 0.75);
+  -moz-box-shadow: 0px 10px 5px -4px rgba(148, 17, 17, 0.75);
+  }
+  ion-card-content{
+    color: black;
+  }
+  ion-content {
+    --background: rgb(246, 210, 210); }
+    ion-toolbar{
+        --background: brown;
+      }

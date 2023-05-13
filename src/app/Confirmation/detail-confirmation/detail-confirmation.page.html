@@ -1,0 +1,40 @@
+
+
+<ion-header>  
+  <ion-toolbar>  
+    <ion-buttons color="white" slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons> 
+    <ion-title align="center">  
+ detail 
+    </ion-title>  
+  </ion-toolbar>  
+</ion-header>     
+<ion-content >  
+
+
+
+<ion-card >
+ 
+  <ion-item-group >
+  <ion-card-header>
+    <ion-item  lines="none">
+    
+      
+        <p class="ion-text-center">
+          <ion-text> Confirmer par: <strong>{{detailConfirm?.accepter?.demande?.utilisateur?.nomComplet}}</strong> </ion-text>
+        </p>
+      
+      <ion-label></ion-label>
+    </ion-item>
+    
+  </ion-card-header>
+  <ion-card-content  >
+    <p>Groupe Sanguin : <strong>{{detailConfirm?.accepter?.demande?.groupeSanguin?.type}}</strong></p>
+    <p>Telephone : <strong> {{detailConfirm?.accepter?.demande?.utilisateur?.telephone}}</strong></p>
+  </ion-card-content>
+  </ion-item-group>
+
+</ion-card>
+
+</ion-content>  

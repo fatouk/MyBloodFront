@@ -1,0 +1,8 @@
+{
+  "name": "BanqueBlood",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

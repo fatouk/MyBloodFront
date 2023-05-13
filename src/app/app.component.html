@@ -1,0 +1,32 @@
+
+  <ion-menu side="start" menuId="first" contentId="content">
+
+
+    <ion-content >
+      <div class="main-header">
+        <div class="img">
+          <img style="width: 70%; margin-left: 15%; margin-top: 10%;" src="../../../assets/My_blodd.png" alt="">
+        </div>
+      </div>
+      <ion-list lines="none" *ngFor="let pages of navigate">
+        <ion-menu-toggle auto-hide="true">
+          <ion-item [routerLink]="pages.url" routerDirection="forward">
+            <ion-icon style="color: black;" [name]="pages.icon" slot="start"></ion-icon>
+              {{pages.title}}
+          </ion-item>
+        </ion-menu-toggle>
+
+      </ion-list>
+      <ion-list>
+        <!-- <ion-item lines="full">
+          <ion-icon slot="start" name="moon"></ion-icon>
+          <ion-label>
+            Toggle Dark Theme
+          </ion-label>
+          <ion-toggle id="themeToggle" slot="end"></ion-toggle>
+        </ion-item> -->
+      </ion-list>
+
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet Id="content"></ion-router-outlet>

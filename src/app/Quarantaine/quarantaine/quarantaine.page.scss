@@ -1,0 +1,25 @@
+ion-card-title{
+    background-color: rgb(69, 158, 231);
+    padding: 10px;
+    border-radius: 20px;
+}
+ion-content{
+    --ion-background-color: white;
+  }
+  ion-item{
+    --background: #9c9494;
+    --color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px red solid;
+    height: 60px;
+  }
+  ion-button{
+    margin-top: 20px;
+    --background: #a1a4a8;
+  border-radius: 100px;
+  color: red;
+  width: 150px;
+  margin-left: 60px;
+
+
+  }
